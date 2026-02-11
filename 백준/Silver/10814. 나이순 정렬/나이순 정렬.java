@@ -38,10 +38,10 @@ public class Main {
         });
         
         StringBuilder sb = new StringBuilder();
-        for (Member member : members) {
-            sb.append(member);
+        for (Member m : members) {
+            sb.append(m);
         }
-
+       
         System.out.print(sb);
     }
 }
