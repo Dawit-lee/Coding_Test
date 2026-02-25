@@ -9,12 +9,12 @@ public class Main {
         int N = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < N; i++) {
-            String VPS = br.readLine();
+            String PT = br.readLine();
             int count = 0;
             boolean isPT = true;
 
-            for (int j = 0; j < VPS.length(); j++) {
-                char c = VPS.charAt(j);
+            for (int j = 0; j < PT.length(); j++) {
+                char c = PT.charAt(j);
 
                 if (c == '(') {
                     count++;
