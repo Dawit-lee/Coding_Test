@@ -14,9 +14,10 @@ public class Main {
             StringTokenizer st = new StringTokenizer(br.readLine());
             M = Integer.parseInt(st.nextToken());
             N = Integer.parseInt(st.nextToken());
-            g = new int[N][M];
-
             int K = Integer.parseInt(st.nextToken());
+            
+            g = new int[N][M];
+            
             for (int k = 0; k < K; k++) {
                 st = new StringTokenizer(br.readLine());
                 int x = Integer.parseInt(st.nextToken());
